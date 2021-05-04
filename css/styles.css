@@ -1,14 +1,13 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%; /*1rem = 10px*/
-    min-height: 100%;
+    
 }
 *, *:before, *:after {
     box-sizing: inherit;
 }
 body {
     font-size: 1.5rem;
-    min-height: 100%;
     background: hsl(0, 0%, 95%);
 }
 h1, p {
@@ -17,13 +16,13 @@ h1, p {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #212121 ;
+    max-width: 120rem;
+    margin: 22.5rem auto;
 }
 .model {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .model h1 {
     font-family: 'Big Shoulders Display', cursive;
