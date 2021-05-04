@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/
+    min-height: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.5rem;
+    min-height: 100%;
+    background: hsl(0, 0%, 95%);
+}
+h1, p {
+    margin: 0;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #212121 ;
+}
+.model {
+    display: flex;
+    justify-content: space-between;
+}
+.model h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+.model p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.order {
+    flex: 0 0 33.3%;
+    padding: 1rem;
+}
+.section1 {
+    background-color: hsl(31, 77%, 52%);
+}
+.section2 {
+    background-color: hsl(184, 100%, 22%);
+}
+.section3 {
+    background-color: hsl(179, 100%, 13%);
+}
