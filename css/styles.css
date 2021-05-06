@@ -7,41 +7,71 @@ html {
     box-sizing: inherit;
 }
 body {
+    
     font-size: 1.5rem;
     background: hsl(0, 0%, 95%);
+    
 }
-h1, p {
-    margin: 0;
-    color: hsla(0, 0%, 100%, 0.75);
-}
-
-.container {
-    max-width: 120rem;
-    margin: 22.5rem auto;
-}
-.model {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.model h1 {
+h1 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
 }
-.model p {
+p {
     font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
+    line-height: 2;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 5rem;
+}
+.btn {
+    background-color: #ffffff;
+    border-radius: 2.5rem;
+    padding: 1.5rem 3rem;
+}
+.btn-1:hover{
+    background-color: black;
+}
+.container {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.model {
+    display: flex;
+    max-width: 95%;
+    padding: .5rem 0;
+   
 }
 .order {
-    flex: 0 0 33.3%;
-    padding: 1rem;
+    padding: 5rem 4rem;
+}
+.order a {
+    text-decoration: none;
 }
 .section1 {
     background-color: hsl(31, 77%, 52%);
 }
+.section1 a {
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+}
 .section2 {
     background-color: hsl(184, 100%, 22%);
 }
+.section2 a {
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+}
 .section3 {
     background-color: hsl(179, 100%, 13%);
+}
+.section3 a {
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
 }
