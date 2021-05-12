@@ -51,6 +51,7 @@ p {
     border-radius: 10rem; 
     max-width: 90rem;
     min-height: 95vh;
+    margin: 3rem;
     display: flex;
     flex-direction: column;
 }
