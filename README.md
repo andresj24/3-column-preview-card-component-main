@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![capture](image/capture.png)
+![capture](https://github.com/andresj24/3-column-preview-card-component-main/blob/master/images/capture.png)
 
 ### Links
 
